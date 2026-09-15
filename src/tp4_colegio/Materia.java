@@ -65,7 +65,9 @@ private int anio;
         return this.idMateria == other.idMateria;
     }
 
-
-
+    @Override
+    public String toString() {
+        return  nombre;
+    }
 
 }
